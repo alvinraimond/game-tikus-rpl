@@ -12,7 +12,7 @@ inputName();
 
 function inputName() {
     var inputName = prompt('Masukkan nama anda');
-    alert('Halo selamat datang'+ inputName);
+    alert('Halo selamat datang '+ inputName);
 }
 
 function randomTanah (tanah) {
