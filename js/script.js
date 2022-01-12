@@ -3,9 +3,17 @@ const tikus = document.querySelectorAll ('.tikus')
 const papanSkor = document.querySelector ('.papan-skor')
 const pop = document.querySelector ('#pop')
 
+
 let tanahSebelumnya
 let selesai
 let skor
+
+inputName();
+
+function inputName() {
+    var inputName = prompt('Masukkan nama anda');
+    alert('Halo selamat datang'+ inputName);
+}
 
 function randomTanah (tanah) {
     const t = Math.floor(Math.random() * tanah.length)
